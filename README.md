@@ -1,6 +1,6 @@
 # devops-utils
 
-A growing collection of small Bash utility scripts for everyday automation and DevOps tasks.
+A growing collection of small Bash utility scripts for automation and everyday DevOps tasks.
 
 ## Tools
 
@@ -13,6 +13,16 @@ bash password-generator.sh --help
 
 Example:
 bash password-generator.sh 16
+
+### disk-hogs.sh
+Finds the largest files and folders in a directory, sorted by size.
+
+Usage:
+bash disk-hogs.sh [directory] [count]
+bash disk-hogs.sh --help
+
+Example:
+bash disk-hogs.sh ~/Downloads 5
 
 ## Why I built this
 A place to collect small, useful scripts as I keep learning Linux and automation - rather than one big project, this grows over time with practical, standalone tools.
