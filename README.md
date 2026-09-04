@@ -24,5 +24,12 @@ bash disk-hogs.sh --help
 Example:
 bash disk-hogs.sh ~/Downloads 5
 
+### netcheck.sh
+Checks internet connectivity, DNS resolution, and reachability of common services.
+
+Usage:
+bash netcheck.sh
+bash netcheck.sh --help
+
 ## Why I built this
 A place to collect small, useful scripts as I keep learning Linux and automation - rather than one big project, this grows over time with practical, standalone tools.
