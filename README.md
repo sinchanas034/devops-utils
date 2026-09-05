@@ -31,5 +31,15 @@ Usage:
 bash netcheck.sh
 bash netcheck.sh --help
 
+### file-organizer.sh
+Organizes files in a directory into subfolders by type (Images, Documents, Archives, Videos, Others).
+
+Usage:
+bash file-organizer.sh [directory]
+bash file-organizer.sh --help
+
+Example:
+bash file-organizer.sh ~/Downloads
+
 ## Why I built this
 A place to collect small, useful scripts as I keep learning Linux and automation - rather than one big project, this grows over time with practical, standalone tools.
