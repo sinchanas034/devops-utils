@@ -41,5 +41,5 @@ bash file-organizer.sh --help
 Example:
 bash file-organizer.sh ~/Downloads
 
-## Why I built this
-A place to collect small, useful scripts as I keep learning Linux and automation - rather than one big project, this grows over time with practical, standalone tools.
+### Why I built this
+A place to collect small, useful scripts as I keep learning Linux and automation - rather than one big project,this grows over time with practical,standalone tools.
