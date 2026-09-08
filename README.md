@@ -41,5 +41,15 @@ bash file-organizer.sh --help
 Example:
 bash file-organizer.sh ~/Downloads
 
+### duplicate-finder.sh
+Finds duplicate files in a directory based on content (using MD5 hashing), not just filename.
+
+Usage:
+bash duplicate-finder.sh [directory]
+bash duplicate-finder.sh --help
+
+Example:
+bash duplicate-finder.sh ~/Downloads
+
 ## Why I built this
 A place to collect small, useful scripts as I keep learning Linux and automation - rather than one big project, this grows over time with practical, standalone tools.
