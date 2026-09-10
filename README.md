@@ -51,5 +51,16 @@ bash duplicate-finder.sh --help
 Example:
 bash duplicate-finder.sh ~/Downloads
 
+### old-file-cleaner.sh
+Finds and optionally deletes files older than a specified number of days. Defaults to a safe dry-run mode that only lists files unless --delete is passed.
+
+Usage:
+bash old-file-cleaner.sh <directory> <days> [--delete]
+bash old-file-cleaner.sh --help
+
+Example:
+bash old-file-cleaner.sh ~/Downloads 30
+bash old-file-cleaner.sh ~/Downloads 30 --delete
+
 ## Why I built this
 A place to collect small, useful scripts as I keep learning Linux and automation - rather than one big project, this grows over time with practical, standalone tools.
