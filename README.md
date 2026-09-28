@@ -62,5 +62,15 @@ Example:
 bash old-file-cleaner.sh ~/Downloads 30
 bash old-file-cleaner.sh ~/Downloads 30 --delete
 
+### port-checker.sh
+Lists all listening ports on the machine, or checks whether a specific port is in use.
+
+Usage:
+bash port-checker.sh [port]
+bash port-checker.sh --help
+
+Example:
+bash port-checker.sh 8080
+
 ## Why I built this
 A place to collect small, useful scripts as I keep learning Linux and automation - rather than one big project, this grows over time with practical, standalone tools.
