@@ -72,5 +72,12 @@ bash port-checker.sh --help
 Example:
 bash port-checker.sh 8080
 
+### sysinfo.sh
+Prints a quick snapshot of system information - hostname, OS, uptime, disk, memory, and Git version.
+
+Usage:
+bash sysinfo.sh
+bash sysinfo.sh --help
+
 ## Why I built this
 A place to collect small, useful scripts as I keep learning Linux and automation - rather than one big project, this grows over time with practical, standalone tools.
