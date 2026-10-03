@@ -79,5 +79,15 @@ Usage:
 bash sysinfo.sh
 bash sysinfo.sh --help
 
+### git-health-check.sh
+Checks a Git repository for uncommitted changes and unpushed commits - a quick way to confirm everything is saved and backed up.
+
+Usage:
+bash git-health-check.sh [directory]
+bash git-health-check.sh --help
+
+Example:
+bash git-health-check.sh ~/projects/syscheck
+
 ## Why I built this
 A place to collect small, useful scripts as I keep learning Linux and automation - rather than one big project, this grows over time with practical, standalone tools.
